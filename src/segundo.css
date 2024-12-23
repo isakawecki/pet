@@ -1,0 +1,72 @@
+.meio{
+    font-weight: 600;
+    color: black;
+    padding-top: 139px;
+    padding-bottom: 139px;
+    max-width: 1066px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.segundo h3{
+    font-size: 6.25rem;
+    margin-bottom: 60px;
+    line-height: 97.3%;
+   
+}
+
+
+.amigos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    
+}
+
+.animal{
+    box-shadow: 0px 4px 4px rgba(0,0,0, .25);
+    margin: 20px 20px 20px 0;
+    height: 196px;
+    width: 525px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+  
+}
+
+.animal:hover{
+    transform: scale(1.1);
+}
+
+.animal img{
+    border-radius: 15px 0 0 15px;
+   
+}
+
+
+.animal p{
+position: absolute;
+  color: #626262;  
+  font-size: 16px;
+  width: 297px;
+  margin-top: 70px;
+  margin-left:190px;
+
+
+
+}
+
+
+.animal h2{
+   font-size: 26px;
+   margin: 25px 0 0 25px;
+   padding: 0;
+   position: relative;
+   border: none;
+   max-height: 50px;
+   
+}
+
+
+
